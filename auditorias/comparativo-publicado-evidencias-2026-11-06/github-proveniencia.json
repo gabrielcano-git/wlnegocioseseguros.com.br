@@ -1,0 +1,189 @@
+{
+  "collectedAt": "2026-11-06T19:31:46.807Z",
+  "commit": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5",
+  "commitDate": "2026-11-06T19:25:19Z",
+  "commitUrl": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/commit/5f75d9769beaafcd65fadf322adf4fc0fe7a20e5",
+  "workflowRuns": [
+    {
+      "id": 42279534348,
+      "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/actions/runs/42279534348",
+      "sha": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5",
+      "status": "completed",
+      "conclusion": "success",
+      "created": "2026-11-06T19:25:46Z",
+      "updated": "2026-11-06T19:26:09Z"
+    },
+    {
+      "id": 42266314280,
+      "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/actions/runs/42266314280",
+      "sha": "6f0b5caa53abfcea3f9d4d26bee10cdb6ca38ed4",
+      "status": "completed",
+      "conclusion": "success",
+      "created": "2026-11-06T17:57:20Z",
+      "updated": "2026-11-06T17:59:11Z"
+    },
+    {
+      "id": 42260507677,
+      "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/actions/runs/42260507677",
+      "sha": "f2bdd0e1d3eacddf9106a4d0471c069c09dd8a6b",
+      "status": "completed",
+      "conclusion": "success",
+      "created": "2026-11-06T17:19:03Z",
+      "updated": "2026-11-06T17:26:26Z"
+    },
+    {
+      "id": 42260506688,
+      "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/actions/runs/42260506688",
+      "sha": "f2bdd0e1d3eacddf9106a4d0471c069c09dd8a6b",
+      "status": "completed",
+      "conclusion": "success",
+      "created": "2026-11-06T17:19:02Z",
+      "updated": "2026-11-06T17:26:27Z"
+    },
+    {
+      "id": 42107842321,
+      "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/actions/runs/42107842321",
+      "sha": "9db862115e4ca21a565fcafbc3609d3863e8d0ed",
+      "status": "completed",
+      "conclusion": "success",
+      "created": "2026-11-05T20:55:24Z",
+      "updated": "2026-11-05T20:55:49Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 128104568892,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-11-06T19:26:08Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-06T19:25:51Z",
+          "completed_at": "2026-11-06T19:25:52Z"
+        },
+        {
+          "name": "Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-06T19:25:52Z",
+          "completed_at": "2026-11-06T19:25:54Z"
+        },
+        {
+          "name": "Set up Node.js",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-06T19:25:54Z",
+          "completed_at": "2026-11-06T19:25:55Z"
+        },
+        {
+          "name": "Install site dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-06T19:25:55Z",
+          "completed_at": "2026-11-06T19:25:56Z"
+        },
+        {
+          "name": "Build static site",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-11-06T19:25:56Z",
+          "completed_at": "2026-11-06T19:25:57Z"
+        },
+        {
+          "name": "Configure Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-11-06T19:25:57Z",
+          "completed_at": "2026-11-06T19:25:57Z"
+        },
+        {
+          "name": "Upload site artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-11-06T19:25:57Z",
+          "completed_at": "2026-11-06T19:25:59Z"
+        },
+        {
+          "name": "Deploy to GitHub Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-11-06T19:25:59Z",
+          "completed_at": "2026-11-06T19:26:05Z"
+        },
+        {
+          "name": "Post Set up Node.js",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-11-06T19:26:05Z",
+          "completed_at": "2026-11-06T19:26:06Z"
+        },
+        {
+          "name": "Post Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-11-06T19:26:06Z",
+          "completed_at": "2026-11-06T19:26:07Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-11-06T19:26:07Z",
+          "completed_at": "2026-11-06T19:26:07Z"
+        }
+      ]
+    }
+  ],
+  "remoteLighthouse": {
+    "path": "site/docs/core-web-vitals/lighthouse/summary.json",
+    "sha": "70ebb8bcf8768f8ec98b89d01705c3f3f708f4f9",
+    "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+  },
+  "files": [
+    {
+      "path": "site/src/templates.mjs",
+      "sha": "f2035601b01f8a3194f5bb77633665ab67b02935",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    },
+    {
+      "path": "site/src/content.mjs",
+      "sha": "2be19a99b86e912aa4829a31401324b9a73f04e4",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    },
+    {
+      "path": "site/src/styles.scss",
+      "sha": "0b1277da7eb879a62b515a8adeea9322bd348470",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    },
+    {
+      "path": "site/src/app.js",
+      "sha": "ebc62cb7a632baff42a3e7b4f3399f7efa0faec2",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    },
+    {
+      "path": "site/scripts/build.mjs",
+      "sha": "37c732fec6185a2f1173a656d32806075860a84f",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    },
+    {
+      "path": "site/scripts/critical-css.mjs",
+      "sha": "e8c3f1de33d4eae039820e6c51d8de8be6461235",
+      "ref": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5"
+    }
+  ]
+}

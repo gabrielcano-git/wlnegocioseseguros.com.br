@@ -1,0 +1,1493 @@
+{
+  "date": "2026-11-06T18:07:35.690Z",
+  "method": "Inspeção estática; sem DOM vivo, viewport ou performance",
+  "sourceChecks": [
+    {
+      "path": "site/src/templates.mjs",
+      "githubBlobSha": "ed89f026115bf5acef74429d82cb8d64ab102ca9",
+      "localBlobSha": "ed89f026115bf5acef74429d82cb8d64ab102ca9",
+      "matchesGitHub": true,
+      "archivedMatches": true
+    },
+    {
+      "path": "site/src/content.mjs",
+      "githubBlobSha": "2be19a99b86e912aa4829a31401324b9a73f04e4",
+      "localBlobSha": "2be19a99b86e912aa4829a31401324b9a73f04e4",
+      "matchesGitHub": true,
+      "archivedMatches": true
+    },
+    {
+      "path": "site/src/styles.scss",
+      "githubBlobSha": "871ef2477e27db6f2904cd36b759c05c0751ad23",
+      "localBlobSha": "871ef2477e27db6f2904cd36b759c05c0751ad23",
+      "matchesGitHub": true,
+      "archivedMatches": true
+    },
+    {
+      "path": "site/src/app.js",
+      "githubBlobSha": "63ad7a63add03baaa85c22ed592d03b8f719ad2f",
+      "localBlobSha": "63ad7a63add03baaa85c22ed592d03b8f719ad2f",
+      "matchesGitHub": true,
+      "archivedMatches": true
+    }
+  ],
+  "rows": [
+    {
+      "route": "/",
+      "title": "Proteção para viver com mais tranquilidade | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre dúvidas sobre seguros.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 6,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "A vida acontece. Viva com mais tranquilidade."
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger hoje?"
+        },
+        {
+          "level": 3,
+          "text": "Seguro Auto"
+        },
+        {
+          "level": 3,
+          "text": "Seguro Residencial"
+        },
+        {
+          "level": 3,
+          "text": "Seguro de Vida"
+        },
+        {
+          "level": 2,
+          "text": "Você não precisa entender de seguros. Precisa de quem entenda você."
+        },
+        {
+          "level": 3,
+          "text": "Primeiro, a gente escuta."
+        },
+        {
+          "level": 3,
+          "text": "Depois, encontra o que faz sentido."
+        },
+        {
+          "level": 3,
+          "text": "E continua por perto."
+        },
+        {
+          "level": 2,
+          "text": "Mais cuidado com o lugar de todos."
+        },
+        {
+          "level": 2,
+          "text": "É assim que a gente cuida."
+        },
+        {
+          "level": 3,
+          "text": "Agilidade"
+        },
+        {
+          "level": 3,
+          "text": "Avaliação"
+        },
+        {
+          "level": 3,
+          "text": "Honestidade"
+        },
+        {
+          "level": 3,
+          "text": "Proteção"
+        },
+        {
+          "level": 2,
+          "text": "Um seguro é um contrato. Cuidado é uma relação."
+        },
+        {
+          "level": 3,
+          "text": "Inovação"
+        },
+        {
+          "level": 3,
+          "text": "Profissionalismo"
+        },
+        {
+          "level": 3,
+          "text": "Suporte"
+        },
+        {
+          "level": 2,
+          "text": "O que nossos clientes falam."
+        },
+        {
+          "level": 2,
+          "text": "Seguro, sem complicar."
+        },
+        {
+          "level": 3,
+          "text": "RC Profissional"
+        },
+        {
+          "level": 2,
+          "text": "Seguro fica melhor quando fica claro."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-auto/",
+      "title": "Seguro Auto | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguro Auto"
+        },
+        {
+          "level": 2,
+          "text": "Sem dúvidas, o produto mais conhecido no mercado de seguros!"
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Um seguro que se encaixa na sua rotina"
+        },
+        {
+          "level": 2,
+          "text": "Seguro de Casco"
+        },
+        {
+          "level": 2,
+          "text": "Coberturas opcionais"
+        },
+        {
+          "level": 2,
+          "text": "Motorista de aplicativo"
+        },
+        {
+          "level": 2,
+          "text": "Responsabilidade Civil Facultativa (RCF)"
+        },
+        {
+          "level": 2,
+          "text": "Acidentes Pessoais de Passageiros (APP)"
+        },
+        {
+          "level": 2,
+          "text": "Mas não tive sinistro e meu seguro ficou mais caro?"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-residencial/",
+      "title": "Seguro Residencial | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguro Residencial"
+        },
+        {
+          "level": 2,
+          "text": "Mais tranquilidade para o lugar que é seu."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "A proteção básica"
+        },
+        {
+          "level": 2,
+          "text": "Valor da cobertura básica"
+        },
+        {
+          "level": 2,
+          "text": "Danos elétricos"
+        },
+        {
+          "level": 2,
+          "text": "Danos de causas naturais"
+        },
+        {
+          "level": 2,
+          "text": "Subtração de bens"
+        },
+        {
+          "level": 2,
+          "text": "Impacto de veículos e aeronaves"
+        },
+        {
+          "level": 2,
+          "text": "Danos a terceiros: responsabilidade civil"
+        },
+        {
+          "level": 2,
+          "text": "Assistência 24h"
+        },
+        {
+          "level": 2,
+          "text": "A melhor parte"
+        },
+        {
+          "level": 2,
+          "text": "Preço do seguro (prêmio)"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/rc-profissional/",
+      "title": "RC Profissional | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "RC Profissional"
+        },
+        {
+          "level": 2,
+          "text": "Mais segurança para exercer o que você faz."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Sua atividade e seu patrimônio"
+        },
+        {
+          "level": 2,
+          "text": "Indenização"
+        },
+        {
+          "level": 2,
+          "text": "Contratação"
+        },
+        {
+          "level": 2,
+          "text": "Quem pode contratar?"
+        },
+        {
+          "level": 2,
+          "text": "Riscos excluídos"
+        },
+        {
+          "level": 2,
+          "text": "Dra. Ana — Advogada"
+        },
+        {
+          "level": 2,
+          "text": "Otávio — Engenheiro"
+        },
+        {
+          "level": 2,
+          "text": "Dr. João — Médico Ortopedista"
+        },
+        {
+          "level": 2,
+          "text": "Proteção no seu planejamento"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-de-vida-em-grupo/",
+      "title": "Seguro de Vida em Grupo | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro de Vida em Grupo.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguro de Vida em Grupo"
+        },
+        {
+          "level": 2,
+          "text": "Proteção para empresas e colaboradores."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Proteção essencial"
+        },
+        {
+          "level": 2,
+          "text": "Individual ou coletivo?"
+        },
+        {
+          "level": 2,
+          "text": "Contratação compulsória"
+        },
+        {
+          "level": 2,
+          "text": "Contratação facultativa"
+        },
+        {
+          "level": 2,
+          "text": "Convenções coletivas"
+        },
+        {
+          "level": 2,
+          "text": "Soluções para o seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguros-de-pessoas/",
+      "title": "Seguros de Pessoas | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguros de Pessoas.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguros de Pessoas"
+        },
+        {
+          "level": 2,
+          "text": "Proteção para diferentes momentos da vida."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Cobertura de sobrevivência"
+        },
+        {
+          "level": 2,
+          "text": "Coberturas de risco"
+        },
+        {
+          "level": 2,
+          "text": "Individual ou coletivo"
+        },
+        {
+          "level": 2,
+          "text": "E a previdência privada?"
+        },
+        {
+          "level": 2,
+          "text": "Seguro de vida vai além"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/sobre-nos/",
+      "title": "Sobre a WL | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Sobre a WL.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Sobre a WL"
+        },
+        {
+          "level": 2,
+          "text": "Uma relação que vai além do seguro."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Nossa história"
+        },
+        {
+          "level": 2,
+          "text": "Missão"
+        },
+        {
+          "level": 2,
+          "text": "Visão"
+        },
+        {
+          "level": 2,
+          "text": "Valores"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/assessoria-de-seguros/",
+      "title": "Assessoria de Seguros | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Assessoria de Seguros.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Assessoria de Seguros"
+        },
+        {
+          "level": 2,
+          "text": "Sua assessoria em cada etapa."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Renovações acompanhadas"
+        },
+        {
+          "level": 2,
+          "text": "Cotações personalizadas"
+        },
+        {
+          "level": 2,
+          "text": "Conversa até ficar claro"
+        },
+        {
+          "level": 2,
+          "text": "Acompanhamento da contratação"
+        },
+        {
+          "level": 2,
+          "text": "Suporte quando precisar"
+        },
+        {
+          "level": 2,
+          "text": "Hora de renovar"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/projeto-condominio-seguro/",
+      "title": "Projeto Condomínio Seguro | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Projeto Condomínio Seguro.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Projeto Condomínio Seguro"
+        },
+        {
+          "level": 2,
+          "text": "Seu condomínio merece esse cuidado."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Uma apólice que resolve"
+        },
+        {
+          "level": 2,
+          "text": "Visita diagnóstica"
+        },
+        {
+          "level": 2,
+          "text": "Personalização"
+        },
+        {
+          "level": 2,
+          "text": "Valores"
+        },
+        {
+          "level": 2,
+          "text": "Capacitação"
+        },
+        {
+          "level": 2,
+          "text": "Plantão de vendas"
+        },
+        {
+          "level": 2,
+          "text": "Nunca é demais lembrar"
+        },
+        {
+          "level": 2,
+          "text": "O que o seguro condominial protege?"
+        },
+        {
+          "level": 2,
+          "text": "Conte conosco"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/parceiros-wl/",
+      "title": "Parceiros WL | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Parceiros WL.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Parceiros WL"
+        },
+        {
+          "level": 2,
+          "text": "Boas parcerias. Cuidado completo."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Soluções completas para nossos clientes"
+        },
+        {
+          "level": 2,
+          "text": "Parcerias com confiança"
+        },
+        {
+          "level": 2,
+          "text": "Conheça nossos parceiros"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-de-vida/",
+      "title": "Seguro de Vida | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguro de Vida"
+        },
+        {
+          "level": 2,
+          "text": "Para viver o presente e cuidar do futuro."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Vamos falar sobre esse tabu?"
+        },
+        {
+          "level": 2,
+          "text": "O que é o Seguro de Vida?"
+        },
+        {
+          "level": 2,
+          "text": "Personagens do Seguro de Vida"
+        },
+        {
+          "level": 2,
+          "text": "Importância segurada"
+        },
+        {
+          "level": 2,
+          "text": "Morte natural ou acidental"
+        },
+        {
+          "level": 2,
+          "text": "Invalidez Funcional Permanente Total por Doença (IFPD)"
+        },
+        {
+          "level": 2,
+          "text": "Invalidez Permanente Total ou Parcial por Acidente (IPA)"
+        },
+        {
+          "level": 2,
+          "text": "Despesas Médicas, Hospitalares e Odontológicas (DMHO)"
+        },
+        {
+          "level": 2,
+          "text": "Acidentes pessoais"
+        },
+        {
+          "level": 2,
+          "text": "Doenças graves"
+        },
+        {
+          "level": 2,
+          "text": "Profissional autônomo?"
+        },
+        {
+          "level": 2,
+          "text": "Você sabia?"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-condominial/",
+      "title": "Seguro Condominial | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seguro Condominial"
+        },
+        {
+          "level": 2,
+          "text": "Mais tranquilidade na gestão do seu condomínio."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Seguro obrigatório"
+        },
+        {
+          "level": 2,
+          "text": "Atenção, síndico"
+        },
+        {
+          "level": 2,
+          "text": "Projeto Condomínio Seguro"
+        },
+        {
+          "level": 2,
+          "text": "O que o seguro protege?"
+        },
+        {
+          "level": 2,
+          "text": "Coberturas básicas"
+        },
+        {
+          "level": 2,
+          "text": "Coberturas opcionais"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguros-de-responsabilidade-civil/",
+      "title": "Responsabilidade Civil | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Responsabilidade Civil.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Responsabilidade Civil"
+        },
+        {
+          "level": 2,
+          "text": "Cuidado com os outros. Proteção para você."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "Definição"
+        },
+        {
+          "level": 2,
+          "text": "Quais danos são considerados?"
+        },
+        {
+          "level": 2,
+          "text": "Ação judicial"
+        },
+        {
+          "level": 2,
+          "text": "Valor da indenização"
+        },
+        {
+          "level": 2,
+          "text": "Danos intencionais são cobertos?"
+        },
+        {
+          "level": 2,
+          "text": "RC Profissional"
+        },
+        {
+          "level": 2,
+          "text": "RC Facultativa de veículos"
+        },
+        {
+          "level": 2,
+          "text": "RC Civil Geral"
+        },
+        {
+          "level": 2,
+          "text": "RC Empregador"
+        },
+        {
+          "level": 2,
+          "text": "RC Riscos Cibernéticos"
+        },
+        {
+          "level": 2,
+          "text": "RC Obras"
+        },
+        {
+          "level": 2,
+          "text": "Proteção necessária"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    },
+    {
+      "route": "/seguro-diaria-de-incapacidade-temporaria-dit/",
+      "title": "Diária de Incapacidade Temporária | WL Negócios &amp; Seguros",
+      "h1Count": 1,
+      "lang": true,
+      "description": true,
+      "canonical": false,
+      "main": true,
+      "residue9": false,
+      "generatedMatchesDist": true,
+      "whatsapp": [
+        "Olá! Gostaria de mais informações sobre Diária de Incapacidade Temporária.",
+        "Olá! Gostaria de mais informações sobre seguros.",
+        "Olá! Gostaria de mais informações sobre Seguro Auto.",
+        "Olá! Gostaria de mais informações sobre Seguro Residencial.",
+        "Olá! Gostaria de mais informações sobre Seguro de Vida.",
+        "Olá! Gostaria de mais informações sobre Seguro Condominial.",
+        "Olá! Gostaria de mais informações sobre RC Profissional.",
+        "Olá! Gostaria de mais informações sobre Vida em Grupo."
+      ],
+      "imageCount": 1,
+      "imagesMissingAlt": 0,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Diária de Incapacidade Temporária"
+        },
+        {
+          "level": 2,
+          "text": "Se precisar parar, tenha com quem contar."
+        },
+        {
+          "level": 2,
+          "text": "Nesta página"
+        },
+        {
+          "level": 2,
+          "text": "João, motorista de aplicativo"
+        },
+        {
+          "level": 2,
+          "text": "Depois de cinco dias"
+        },
+        {
+          "level": 2,
+          "text": "Quatro meses sem trabalhar?"
+        },
+        {
+          "level": 2,
+          "text": "Como funciona?"
+        },
+        {
+          "level": 2,
+          "text": "Qual valor contratar?"
+        },
+        {
+          "level": 2,
+          "text": "Quer saber mais?"
+        },
+        {
+          "level": 2,
+          "text": "Conte com a gente."
+        },
+        {
+          "level": 2,
+          "text": "Vamos cuidar do que importa para você?"
+        },
+        {
+          "level": 2,
+          "text": "Fale com a WL"
+        },
+        {
+          "level": 2,
+          "text": "Para você"
+        },
+        {
+          "level": 2,
+          "text": "Para seu negócio"
+        },
+        {
+          "level": 2,
+          "text": "Conheça a WL"
+        },
+        {
+          "level": 2,
+          "text": "O que você quer proteger?"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 6189
+    },
+    {
+      "name": "auto-1024.avif",
+      "bytes": 63346
+    },
+    {
+      "name": "auto-1024.webp",
+      "bytes": 100442
+    },
+    {
+      "name": "auto-640.avif",
+      "bytes": 36166
+    },
+    {
+      "name": "casa-1024.avif",
+      "bytes": 67461
+    },
+    {
+      "name": "casa-1024.webp",
+      "bytes": 119922
+    },
+    {
+      "name": "casa-640.avif",
+      "bytes": 39331
+    },
+    {
+      "name": "condominio-1024.avif",
+      "bytes": 106669
+    },
+    {
+      "name": "condominio-1024.webp",
+      "bytes": 207312
+    },
+    {
+      "name": "condominio-640.avif",
+      "bytes": 63644
+    },
+    {
+      "name": "favicon.svg",
+      "bytes": 245
+    },
+    {
+      "name": "styles.css",
+      "bytes": 23550
+    },
+    {
+      "name": "vida-1024.avif",
+      "bytes": 52341
+    },
+    {
+      "name": "vida-1024.webp",
+      "bytes": 72354
+    },
+    {
+      "name": "vida-640.avif",
+      "bytes": 29475
+    }
+  ],
+  "contrast": [
+    {
+      "fg": "#6b4a30",
+      "bg": "#ffffff",
+      "ratio": 7.93
+    },
+    {
+      "fg": "#6b4a30",
+      "bg": "#c8dfbe",
+      "ratio": 5.57
+    },
+    {
+      "fg": "#ffffff",
+      "bg": "#435b3e",
+      "ratio": 7.49
+    },
+    {
+      "fg": "#71675d",
+      "bg": "#ffffff",
+      "ratio": 5.53
+    },
+    {
+      "fg": "#71675d",
+      "bg": "#f8f7f3",
+      "ratio": 5.15
+    },
+    {
+      "fg": "#435b3e",
+      "bg": "#c8dfbe",
+      "ratio": 5.26
+    }
+  ],
+  "robots": "User-agent: *\nDisallow: /\n",
+  "sections": 95
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "method": "Public web text extraction; indexed snapshots, not live DOM",
+  "oldSite": "https://wlnegocioseseguros.com.br/",
+  "newSite": "https://gabrielcano-git.github.io/wlnegocioseseguros.com.br/",
+  "oldPages": [
+    {"path":"/","freshness":"last week","title":"Home -","observations":["Pilares, destaques de seguros, seção de depoimentos em imagens e contatos institucionais","Link genérico de WhatsApp","Erro de digitação no pilar Agilidade"]},
+    {"path":"/seguro-auto/","freshness":"last year","title":"Seguro Auto -","observations":["Explicações de coberturas e cotação","H1 do produto e subtítulos H3 na extração"]},
+    {"path":"/seguro-residencial/","freshness":"8 months ago","title":"Seguro Residencial -","observations":["Três tokens $9 entre coberturas","Trecho de fenômenos naturais com palavras concatenadas"]},
+    {"path":"/sobre-nos/","freshness":"3 months ago","title":"Sobre Nós -","observations":["História, missão, visão e valores"]},
+    {"path":"/assessoria-de-seguros/","freshness":"6 months ago","title":"Assessoria de Seguros -","observations":["Acompanhamento de cotação, contratação e renovação","Promessa de contato antes do vencimento, sem validação operacional"]},
+    {"path":"/projeto-condominio-seguro/","freshness":"last year","title":"Projeto Condomínio Seguro -","observations":["Diagnóstico, personalização e assessoria do condomínio","CTA de avaliação da apólice"]},
+    {"path":"/parceiros-wl/","freshness":"10 months ago","title":"Parceiros WL -","observations":["Diretório de parceiros por imagens","Nomes genéricos na extração não confirmam nomes acessíveis no DOM"]},
+    {"path":"/rc-profissional/","freshness":"4 months ago","title":"RC Profissional -","observations":["Caso de Otávio começa com engenheiro e termina com arquiteto","Um valor em padrão monetário americano","Natureza dos relatos não comprovada"]}
+  ],
+  "newPublicPages": [
+    {"path":"/","status":"not accessible via this tool"},
+    {"path":"/seguro-residencial/","status":"not accessible via this tool"}
+  ],
+  "pageSpeedInsights": [
+    {"site":"old","device":"mobile","status":"not accessible via this tool"},
+    {"site":"old","device":"desktop","status":"not accessible via this tool"},
+    {"site":"new","device":"mobile","status":"not accessible via this tool"},
+    {"site":"new","device":"desktop","status":"not accessible via this tool"}
+  ],
+  "publicMetrics":null,
+  "crux":"unknown",
+  "screenshots":"No new public-site captures; local archived Lighthouse captures available separately"
+}

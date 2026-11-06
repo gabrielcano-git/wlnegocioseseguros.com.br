@@ -1,0 +1,1501 @@
+{
+  "commit": "5f75d9769beaafcd65fadf322adf4fc0fe7a20e5",
+  "truncated": false,
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f12f2529df269b0cbc486da7212c4d26f42013",
+      "size": 1044,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b7f12f2529df269b0cbc486da7212c4d26f42013"
+    },
+    {
+      "path": "site/docs/core-web-vitals/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8a5ed4fbcf65925a3a01397a6d8b71c770cd97",
+      "size": 5030,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ff8a5ed4fbcf65925a3a01397a6d8b71c770cd97"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7584511e4160e65968684edceeb58cef48aef5b9",
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/trees/7584511e4160e65968684edceeb58cef48aef5b9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "071c88bee26699993310dae3c04b77dad7a37588",
+      "size": 708206,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/071c88bee26699993310dae3c04b77dad7a37588"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f6514a7b7dc29bb01ba5803fd1e5807aca388a",
+      "size": 563414,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/57f6514a7b7dc29bb01ba5803fd1e5807aca388a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a547113af3ca5f69e27f1d9f02cccd0ed910391e",
+      "size": 708172,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/a547113af3ca5f69e27f1d9f02cccd0ed910391e"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5d0fe47a331ce472c862171d6a09d92b586025",
+      "size": 563330,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3f5d0fe47a331ce472c862171d6a09d92b586025"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "851734a2b81fd65b3589f6ba607d64558cbd3a81",
+      "size": 708164,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/851734a2b81fd65b3589f6ba607d64558cbd3a81"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a68b3d95402a6683b55d7e54948568031115753",
+      "size": 563263,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1a68b3d95402a6683b55d7e54948568031115753"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "478be4f6e585af29488a97ba1f16881e8fca0f17",
+      "size": 691450,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/478be4f6e585af29488a97ba1f16881e8fca0f17"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4edda146fe9321b80e9897c800a9c47e108975",
+      "size": 547472,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2e4edda146fe9321b80e9897c800a9c47e108975"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97b485a4a98d0083947bbbe586b2645453d4bf8",
+      "size": 691283,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e97b485a4a98d0083947bbbe586b2645453d4bf8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1af4c25134a6da0f0f334032dbb2a68c42b580b",
+      "size": 547246,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c1af4c25134a6da0f0f334032dbb2a68c42b580b"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9be8bc39419f11a390dc93ae1c50e41cd3b4b4",
+      "size": 691291,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ce9be8bc39419f11a390dc93ae1c50e41cd3b4b4"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/assessoria-de-seguros-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ba86a667d9b575de46ec24d276f976da896966",
+      "size": 547313,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c3ba86a667d9b575de46ec24d276f976da896966"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1260efb2af84c68d48544b10779e52fa0eca037",
+      "size": 967959,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/a1260efb2af84c68d48544b10779e52fa0eca037"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "396885f729dd7f46eba29c04e29e0188f5561532",
+      "size": 825837,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/396885f729dd7f46eba29c04e29e0188f5561532"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a1201a40c28b1998e6479370a72c235381250d",
+      "size": 967840,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b5a1201a40c28b1998e6479370a72c235381250d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1693fcf48fb4915812fedee8d7df22462844519",
+      "size": 825718,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f1693fcf48fb4915812fedee8d7df22462844519"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da35cb0ccfd74c0ac5e45b24e3fcc0855f7e60e4",
+      "size": 967897,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/da35cb0ccfd74c0ac5e45b24e3fcc0855f7e60e4"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fea72e1dbc7cc1c73f3b33df41e2e7a432825f",
+      "size": 825775,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/04fea72e1dbc7cc1c73f3b33df41e2e7a432825f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd87657be3ba659feeecc3abc02e52a78284ea48",
+      "size": 824657,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/bd87657be3ba659feeecc3abc02e52a78284ea48"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ac563a079abcce0bf387d6595f1f4248f79cba",
+      "size": 683436,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/98ac563a079abcce0bf387d6595f1f4248f79cba"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30a91c0f8ad1a6c78838e4cd3cab0cdd68439346",
+      "size": 855275,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/30a91c0f8ad1a6c78838e4cd3cab0cdd68439346"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62b2e7e16e7a1fb04c31bcbbd796412a3cfaccc",
+      "size": 714004,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c62b2e7e16e7a1fb04c31bcbbd796412a3cfaccc"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee399fcf75c6ad5e21a67ccdbbaf5f6ab9aa819",
+      "size": 855202,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3ee399fcf75c6ad5e21a67ccdbbaf5f6ab9aa819"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/home-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e73f76f905475b518a5e8a06fc719c9e7e74da",
+      "size": 713583,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/50e73f76f905475b518a5e8a06fc719c9e7e74da"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aac2cd84fb6520ba2e4287c0e9b8351da64f5d3",
+      "size": 684015,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0aac2cd84fb6520ba2e4287c0e9b8351da64f5d3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f22d0ef2e478345117abb910029a863e069b4a2",
+      "size": 539223,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2f22d0ef2e478345117abb910029a863e069b4a2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "984aa812c7897cc57c4c39453e519d4147df835b",
+      "size": 683992,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/984aa812c7897cc57c4c39453e519d4147df835b"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca3310c17cc850963e33e8459da263ee878f4a05",
+      "size": 539150,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ca3310c17cc850963e33e8459da263ee878f4a05"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddba823476967562ff3b5f8d3541d144d858619f",
+      "size": 683938,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ddba823476967562ff3b5f8d3541d144d858619f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55104ffbd377224ac74a6d5d1697f407b14374ff",
+      "size": 539096,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/55104ffbd377224ac74a6d5d1697f407b14374ff"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0dc41057c6aaeaf96d8ca6ad778c049ca3735ff",
+      "size": 688118,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b0dc41057c6aaeaf96d8ca6ad778c049ca3735ff"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b80edcc6408a6a68ca55fd7899ac82266cded06",
+      "size": 544190,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1b80edcc6408a6a68ca55fd7899ac82266cded06"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3e6b2f23b6da3de72cbc91bbc103191d28e93e",
+      "size": 687774,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8b3e6b2f23b6da3de72cbc91bbc103191d28e93e"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91aee3fb12bc76680ff252a80a67877755aff47",
+      "size": 543581,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/d91aee3fb12bc76680ff252a80a67877755aff47"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485eefccb43483b753f3a1da653be8a5e9534be3",
+      "size": 688086,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/485eefccb43483b753f3a1da653be8a5e9534be3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/parceiros-wl-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57c585f807525d5ec54731411e2409ece66fb4f",
+      "size": 544108,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e57c585f807525d5ec54731411e2409ece66fb4f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f98d299c3bb2d9b4c1a796c2d7619ce1b0fca32",
+      "size": 722552,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3f98d299c3bb2d9b4c1a796c2d7619ce1b0fca32"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73015bb48af425198e1d690a233553162ab7cb2f",
+      "size": 577760,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/73015bb48af425198e1d690a233553162ab7cb2f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e5df769bc852a5a270fb7523e4290c071b01f7",
+      "size": 722654,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c3e5df769bc852a5a270fb7523e4290c071b01f7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ecd3992d483e5daa7bdf4f430fa1752ec514566",
+      "size": 577812,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0ecd3992d483e5daa7bdf4f430fa1752ec514566"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1307a6c0096c99ae2bd2ed6fecd41613f843ae7",
+      "size": 722582,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/a1307a6c0096c99ae2bd2ed6fecd41613f843ae7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c71ff8f9ab201d506589f8e2621912808938bec",
+      "size": 577790,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/6c71ff8f9ab201d506589f8e2621912808938bec"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1572ee3c4efd8b94bf2e1ceacd20124cf92dccc2",
+      "size": 683486,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1572ee3c4efd8b94bf2e1ceacd20124cf92dccc2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265fcc73fa778b646a127efdd6abb7abe024bba8",
+      "size": 539180,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/265fcc73fa778b646a127efdd6abb7abe024bba8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a85fe1fdbc08df654d12b0c67ae0517452d2cd",
+      "size": 683502,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c9a85fe1fdbc08df654d12b0c67ae0517452d2cd"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "659546b4dcb80cd4309c51d91d0f6186a169d8d2",
+      "size": 539196,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/659546b4dcb80cd4309c51d91d0f6186a169d8d2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "723514d71f42445624c9478bd2dc797b9f43fa9c",
+      "size": 682875,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/723514d71f42445624c9478bd2dc797b9f43fa9c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/projeto-condominio-seguro-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a0b213760152b62c70c7d0e5d6be6b9a67866d",
+      "size": 538221,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/17a0b213760152b62c70c7d0e5d6be6b9a67866d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f10150dc2a5dc83ec6d53b76cb23d3429256c6b5",
+      "size": 731513,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f10150dc2a5dc83ec6d53b76cb23d3429256c6b5"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eedb5a40655e547d96a2918a9568da3c5a5c21f",
+      "size": 586671,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3eedb5a40655e547d96a2918a9568da3c5a5c21f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d3b98a855b3bf822b514f1dc16495fa5e7086ac",
+      "size": 731444,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5d3b98a855b3bf822b514f1dc16495fa5e7086ac"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0de65e54e48dcc3a084ca3e0446299dd19a34e8f",
+      "size": 586602,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0de65e54e48dcc3a084ca3e0446299dd19a34e8f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79acd467288eb015e7bd4e15477710112f76978b",
+      "size": 731376,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/79acd467288eb015e7bd4e15477710112f76978b"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb1f50e38bf8ffd4b8d9cd723ebc49054df8b934",
+      "size": 586534,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/fb1f50e38bf8ffd4b8d9cd723ebc49054df8b934"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e51f88d747f52dc46cf43de9fe1dab73c1fe39",
+      "size": 738367,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/91e51f88d747f52dc46cf43de9fe1dab73c1fe39"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1156da18ff19a19a3d989d8a16f2db9796c15eb9",
+      "size": 594389,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1156da18ff19a19a3d989d8a16f2db9796c15eb9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a34924a01817a289cf25a435b02b6fc4ad5f112",
+      "size": 738452,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/6a34924a01817a289cf25a435b02b6fc4ad5f112"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0ac6b8ce89cfb6459a96de37afc7cb976e57aa",
+      "size": 594524,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0d0ac6b8ce89cfb6459a96de37afc7cb976e57aa"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dea854c6de772b4b71acbcb9830e5aec851b726",
+      "size": 738799,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5dea854c6de772b4b71acbcb9830e5aec851b726"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/rc-profissional-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70f61d012399136cc8f30d268c9b2f1f271ae0f4",
+      "size": 595219,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/70f61d012399136cc8f30d268c9b2f1f271ae0f4"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0949262cd29aed5ef920df0769bf5f5b7fa2401",
+      "size": 706563,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b0949262cd29aed5ef920df0769bf5f5b7fa2401"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733e1ef7af284c745ecfe166c6bb4123397240e8",
+      "size": 561662,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/733e1ef7af284c745ecfe166c6bb4123397240e8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e758326db33a4e481af8e44b6231d48bcf4fb3f2",
+      "size": 706541,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e758326db33a4e481af8e44b6231d48bcf4fb3f2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c63da64fa616910499288a17a855d18bf1906f03",
+      "size": 561699,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c63da64fa616910499288a17a855d18bf1906f03"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb86d37edd41eaae2dcb4c44355abc0fd8d39073",
+      "size": 706619,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/eb86d37edd41eaae2dcb4c44355abc0fd8d39073"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74cabdb60be025ae32dffef2347bdb33590c47d3",
+      "size": 561777,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/74cabdb60be025ae32dffef2347bdb33590c47d3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22952a0a7179b0896750bb5eadffa008960ec24e",
+      "size": 701497,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/22952a0a7179b0896750bb5eadffa008960ec24e"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f573eea6376c39d442b1a736334548fc2d80dc5d",
+      "size": 557519,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f573eea6376c39d442b1a736334548fc2d80dc5d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b50e24d8a0d635945901eefdbe0c6fa05d5c81d",
+      "size": 702164,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3b50e24d8a0d635945901eefdbe0c6fa05d5c81d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "184da5e645c57ee545e90dc54d6624586616bef4",
+      "size": 558662,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/184da5e645c57ee545e90dc54d6624586616bef4"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39d754af3ad3842a996495e8d67c657ec2a7335",
+      "size": 701368,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e39d754af3ad3842a996495e8d67c657ec2a7335"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-auto-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ee4108d1b70b5ce65d8e6d4b0b1e2710c2026d8",
+      "size": 557331,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/4ee4108d1b70b5ce65d8e6d4b0b1e2710c2026d8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d817430d5bdebc479bd9f0016a0bab447dd79ccb",
+      "size": 732283,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/d817430d5bdebc479bd9f0016a0bab447dd79ccb"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c3c74b88470bfd7132c80b20dc917168c1d05a",
+      "size": 587491,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f3c3c74b88470bfd7132c80b20dc917168c1d05a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fa3cc4605ead8d7cd256a075ad18430fe5a430a",
+      "size": 732154,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8fa3cc4605ead8d7cd256a075ad18430fe5a430a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95356b3ed33189ad7bc5abeeebe252e0b1d62a1a",
+      "size": 587362,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/95356b3ed33189ad7bc5abeeebe252e0b1d62a1a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9898777de5a59c892cf7664758002320937f22e9",
+      "size": 732128,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/9898777de5a59c892cf7664758002320937f22e9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3291563e1e5b3628555d36b25e802840d7d5b7",
+      "size": 587286,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/bf3291563e1e5b3628555d36b25e802840d7d5b7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7454b138645ad5503fe6641d15c95422d8030bab",
+      "size": 721585,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/7454b138645ad5503fe6641d15c95422d8030bab"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05108ada9cc6f6649c8caae2a1c3edc35c24f2b3",
+      "size": 578083,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/05108ada9cc6f6649c8caae2a1c3edc35c24f2b3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8467c1f00164053e68c2d691eb96560074da1d03",
+      "size": 728800,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8467c1f00164053e68c2d691eb96560074da1d03"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099635b7856debb4959b5921e2e18ebed9e0cea7",
+      "size": 584950,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/099635b7856debb4959b5921e2e18ebed9e0cea7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5bf1a7e0a3e7ffec613eaa9180a1ffe0a37907",
+      "size": 721219,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/aa5bf1a7e0a3e7ffec613eaa9180a1ffe0a37907"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-condominial-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abde690936d17f19f36c2ebdc4692a4bb9dd787d",
+      "size": 577291,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/abde690936d17f19f36c2ebdc4692a4bb9dd787d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2160f9704f37d4308f9a309ecd570961fa8b5283",
+      "size": 748795,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2160f9704f37d4308f9a309ecd570961fa8b5283"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a6d6b77cc018a525581dce89f2c6e0038ca64b",
+      "size": 603953,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c9a6d6b77cc018a525581dce89f2c6e0038ca64b"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf31f078b45a5e67fa990a23a6bbaf69a053b13",
+      "size": 748750,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5cf31f078b45a5e67fa990a23a6bbaf69a053b13"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e0882ccbc1a3fa1a817702bc05d549ad45def5e",
+      "size": 603849,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0e0882ccbc1a3fa1a817702bc05d549ad45def5e"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d06385a159d8133cdab87b9c7bf56a5379de036",
+      "size": 748813,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3d06385a159d8133cdab87b9c7bf56a5379de036"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0742d3e411348da5bcbd0318c0e1e7490e02c58",
+      "size": 603912,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f0742d3e411348da5bcbd0318c0e1e7490e02c58"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1709e6838803a5879d94a9ab45f7a9cf140cc022",
+      "size": 706444,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1709e6838803a5879d94a9ab45f7a9cf140cc022"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6ade992bde3bd6d077004273f561dcedad5b0a",
+      "size": 561602,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/7a6ade992bde3bd6d077004273f561dcedad5b0a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8988c7257a07ccb77b7b77261453052c554e39",
+      "size": 706504,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1b8988c7257a07ccb77b7b77261453052c554e39"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b44a3b4c848aa54fbac93215fc5b228c1a9328",
+      "size": 561662,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/65b44a3b4c848aa54fbac93215fc5b228c1a9328"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf0521eed0e42d0d95d64c1dd010775504350be",
+      "size": 706476,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/dcf0521eed0e42d0d95d64c1dd010775504350be"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f48cd094c22bcc49db7efead36c07b55fc880a1",
+      "size": 561684,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2f48cd094c22bcc49db7efead36c07b55fc880a1"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf41549f36639e7275ba9e60fab16d72e0bd30b2",
+      "size": 684593,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/cf41549f36639e7275ba9e60fab16d72e0bd30b2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f052e510b2962d0fd2be6dc79148169a2eada08",
+      "size": 541013,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/9f052e510b2962d0fd2be6dc79148169a2eada08"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508f3ca2f1e401ba8fcf356b4469dfb7023c04b2",
+      "size": 684268,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/508f3ca2f1e401ba8fcf356b4469dfb7023c04b2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d756987826d1d8f5c457f37f6f0e0f5fd20f012",
+      "size": 540290,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/7d756987826d1d8f5c457f37f6f0e0f5fd20f012"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7c3b314ec05df83d17c46d319163c28cd0509b5",
+      "size": 687329,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e7c3b314ec05df83d17c46d319163c28cd0509b5"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-em-grupo-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab2d78d6f7d0ea484d5b0fcb055c96db1d73364",
+      "size": 543351,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/bab2d78d6f7d0ea484d5b0fcb055c96db1d73364"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "893228da3944e80597ed22240e80f99add69ade7",
+      "size": 744647,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/893228da3944e80597ed22240e80f99add69ade7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d105bc5b0e43a12b4c576e6bd53311a58eeb830",
+      "size": 600797,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5d105bc5b0e43a12b4c576e6bd53311a58eeb830"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2220fc3c7adfb974cbcad0afaea4eb3b9661563",
+      "size": 745215,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c2220fc3c7adfb974cbcad0afaea4eb3b9661563"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c1210cca65c1197063408be4b2c862f476622f",
+      "size": 601713,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/a5c1210cca65c1197063408be4b2c862f476622f"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "433c25d040a7e5b41f5c98033eb61e5c16d963e5",
+      "size": 744387,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/433c25d040a7e5b41f5c98033eb61e5c16d963e5"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-de-vida-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ba8eeeff6ef8d64894a15d41e3ccdece487e190",
+      "size": 600409,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/4ba8eeeff6ef8d64894a15d41e3ccdece487e190"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a385f080940b1ce7fadac679d7aecc8ab593fc7",
+      "size": 706812,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3a385f080940b1ce7fadac679d7aecc8ab593fc7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe3ae5464e9852adc0c980930397941b79fd2267",
+      "size": 561970,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/fe3ae5464e9852adc0c980930397941b79fd2267"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c2eacd812e78b0227f7ef625da41a7d6bd33c3",
+      "size": 706864,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b4c2eacd812e78b0227f7ef625da41a7d6bd33c3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41823017e8218a5d40bdd3839f404b997422e0d",
+      "size": 562022,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e41823017e8218a5d40bdd3839f404b997422e0d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6393189f9da8586cb7bfb073a6cb4209a3e1a620",
+      "size": 706820,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/6393189f9da8586cb7bfb073a6cb4209a3e1a620"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad324eaccd807f998a9700eed72c5da57aa1a8c8",
+      "size": 561978,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ad324eaccd807f998a9700eed72c5da57aa1a8c8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685c5c58a425cd5cde26a82f198787d7745d3aa9",
+      "size": 680701,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/685c5c58a425cd5cde26a82f198787d7745d3aa9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2817fd60ff69a6428096a48c6329eb2fa154ab80",
+      "size": 536664,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2817fd60ff69a6428096a48c6329eb2fa154ab80"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e27a7da5d3b6df512554146df9032f51a6e860",
+      "size": 680855,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/34e27a7da5d3b6df512554146df9032f51a6e860"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75c78a74321ef4b4b9025afa3320bd76cc65001",
+      "size": 537005,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/d75c78a74321ef4b4b9025afa3320bd76cc65001"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0386ea3b4b81a9a259fe930b40c286abe0e64e71",
+      "size": 680830,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0386ea3b4b81a9a259fe930b40c286abe0e64e71"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-diaria-de-incapacidade-temporaria-dit-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178a02e7a3cce09970a743bfedd7178a711d2fc2",
+      "size": 536980,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/178a02e7a3cce09970a743bfedd7178a711d2fc2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39594a1d2d64f054551012ec205916bc9e29b774",
+      "size": 728015,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/39594a1d2d64f054551012ec205916bc9e29b774"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd588445793d5d00b3b269a0c0e3d3ab2e958277",
+      "size": 583173,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/bd588445793d5d00b3b269a0c0e3d3ab2e958277"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84b61cbc853f011cd5edd25a686e72e5b787de3",
+      "size": 728080,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b84b61cbc853f011cd5edd25a686e72e5b787de3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc951c32b463d7d0919a6661f7cb2911b2af642b",
+      "size": 583288,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/fc951c32b463d7d0919a6661f7cb2911b2af642b"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8712ce15f6a36feb9a061f201a1d979cd8e3cb2",
+      "size": 728145,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c8712ce15f6a36feb9a061f201a1d979cd8e3cb2"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67489f423170f8023abf59974b055acc7904e64c",
+      "size": 583353,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/67489f423170f8023abf59974b055acc7904e64c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae8d6d4dcec79ef6086c9468d9efed9281f2c685",
+      "size": 710718,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ae8d6d4dcec79ef6086c9468d9efed9281f2c685"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491a5e6407f2edf0a9206efacb18665a629f227d",
+      "size": 566818,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/491a5e6407f2edf0a9206efacb18665a629f227d"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5947ea7634126702d7eb05b1b11b98131c9fbbd0",
+      "size": 710496,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5947ea7634126702d7eb05b1b11b98131c9fbbd0"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91bab54d1255e44559674a0316e1047cc10b2bb",
+      "size": 566518,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f91bab54d1255e44559674a0316e1047cc10b2bb"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75a8435c1633bc4e1e63c764a412e586e7989b17",
+      "size": 710495,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/75a8435c1633bc4e1e63c764a412e586e7989b17"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguro-residencial-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772df3f6383958bfd6472abd4f8cc82af9960f6a",
+      "size": 566567,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/772df3f6383958bfd6472abd4f8cc82af9960f6a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10b60941ea3949c77325edfb04270b5d6660d9f8",
+      "size": 677996,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/10b60941ea3949c77325edfb04270b5d6660d9f8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5f60159e88817492d9abd06c0432238e62ac8c",
+      "size": 533204,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8a5f60159e88817492d9abd06c0432238e62ac8c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8e467c8c5425434a7ab2185c1a981b398f7035",
+      "size": 677976,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/aa8e467c8c5425434a7ab2185c1a981b398f7035"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8da8b8d2c7bc26056168e959decbd1055547bdd6",
+      "size": 533134,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8da8b8d2c7bc26056168e959decbd1055547bdd6"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c3db0410a72abb4544f00a44fb75962311a815",
+      "size": 677952,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/98c3db0410a72abb4544f00a44fb75962311a815"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4ec57d0f7e0a2f9d9467336910195893647dde",
+      "size": 533160,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5c4ec57d0f7e0a2f9d9467336910195893647dde"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada390367c80bd3558981f74b25525f346a415a0",
+      "size": 657760,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ada390367c80bd3558981f74b25525f346a415a0"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d9d4e770284747b85036464d67ef1c06370546",
+      "size": 514258,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c7d9d4e770284747b85036464d67ef1c06370546"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85dff7897db13dff88121211aac07cd4d483f8a5",
+      "size": 657428,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/85dff7897db13dff88121211aac07cd4d483f8a5"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e4acc451bc6d2945f18142eb7a7fa91b52eea8",
+      "size": 513500,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/33e4acc451bc6d2945f18142eb7a7fa91b52eea8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3f75cfacd1d3ae129a22221c108fe87dd459ea8",
+      "size": 661143,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/c3f75cfacd1d3ae129a22221c108fe87dd459ea8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-pessoas-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af1f419216eed884e2943fca55daa7eb555a9f69",
+      "size": 517641,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/af1f419216eed884e2943fca55daa7eb555a9f69"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85a42854e044aa250e89a6e2003dbf2536c8041",
+      "size": 718615,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e85a42854e044aa250e89a6e2003dbf2536c8041"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32e7af7ac9095aa4621d3ef5aa0ddd1c7035d14",
+      "size": 573823,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/a32e7af7ac9095aa4621d3ef5aa0ddd1c7035d14"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92252762be3a30c554d66ae9fd62b282e8e95806",
+      "size": 718569,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/92252762be3a30c554d66ae9fd62b282e8e95806"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195f4e17887891e1b7aaabbbe934a724d6a4f5b9",
+      "size": 573668,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/195f4e17887891e1b7aaabbbe934a724d6a4f5b9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08b7a97881df35519bc31bb76e396c4954601277",
+      "size": 718517,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/08b7a97881df35519bc31bb76e396c4954601277"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb4dd250f5e0d3b2d548d41aa8be4bfa3ab81da",
+      "size": 573675,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/bdb4dd250f5e0d3b2d548d41aa8be4bfa3ab81da"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1643a4569ddb6538a52146c1cc79df83902e7628",
+      "size": 707236,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1643a4569ddb6538a52146c1cc79df83902e7628"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c748dd33f46e19bff45b8d175aebea840c5e69c",
+      "size": 563784,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2c748dd33f46e19bff45b8d175aebea840c5e69c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3577d22e5e39bbccace28d5d94f2dc07f7435cdc",
+      "size": 706649,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/3577d22e5e39bbccace28d5d94f2dc07f7435cdc"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e78b39c840fdc0b1f4ad77a67f186af20d90f8",
+      "size": 562749,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/07e78b39c840fdc0b1f4ad77a67f186af20d90f8"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb955520be574fc3894b987d55f87be6b9819c0",
+      "size": 706429,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/4eb955520be574fc3894b987d55f87be6b9819c0"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/seguros-de-responsabilidade-civil-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1623199723775e973fd0c96ee74ce2ab165e191c",
+      "size": 562451,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/1623199723775e973fd0c96ee74ce2ab165e191c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7739b561d5f79f7f73bcd1603110c2bee5f35e",
+      "size": 643437,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/4b7739b561d5f79f7f73bcd1603110c2bee5f35e"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dcfb8fe2a770b4574ca9ae139813835f5381aab",
+      "size": 498536,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/7dcfb8fe2a770b4574ca9ae139813835f5381aab"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d88a38643fe3d9ff6aba21e70194496d0e147746",
+      "size": 643369,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/d88a38643fe3d9ff6aba21e70194496d0e147746"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d1bcdd68c777fd5d9dd03cf7394ec6d50e1f39",
+      "size": 498527,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/77d1bcdd68c777fd5d9dd03cf7394ec6d50e1f39"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d232f00b6838249e3aa88aa450de4e44f11d141c",
+      "size": 643319,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/d232f00b6838249e3aa88aa450de4e44f11d141c"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-desktop-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc2ea99f8e8f5d03ad335ff1d9ece6da5f243fd",
+      "size": 498477,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2dc2ea99f8e8f5d03ad335ff1d9ece6da5f243fd"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-1.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5740d6b5c409e5b6eafb183dd41717bfe57a6477",
+      "size": 647703,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/5740d6b5c409e5b6eafb183dd41717bfe57a6477"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-1.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2864f0e15da6f9f1dd4ee60a5bf5455e0f851bb3",
+      "size": 503803,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2864f0e15da6f9f1dd4ee60a5bf5455e0f851bb3"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-2.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18ada16f2c357dd9e33fb50a626deecc9730a7b7",
+      "size": 647509,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/18ada16f2c357dd9e33fb50a626deecc9730a7b7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-2.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660a80d1406566167a2a573c94ba5357ee857825",
+      "size": 503531,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/660a80d1406566167a2a573c94ba5357ee857825"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-3.report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bcf5a6a3b3a11a42687d9c0d7cda3097742897a",
+      "size": 647665,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8bcf5a6a3b3a11a42687d9c0d7cda3097742897a"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/sobre-nos-mobile-3.report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8317f9874fc735a77f5039950e9d83e1835542f7",
+      "size": 503765,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/8317f9874fc735a77f5039950e9d83e1835542f7"
+    },
+    {
+      "path": "site/docs/core-web-vitals/lighthouse/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ebb8bcf8768f8ec98b89d01705c3f3f708f4f9",
+      "size": 72550,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/70ebb8bcf8768f8ec98b89d01705c3f3f708f4f9"
+    },
+    {
+      "path": "site/docs/core-web-vitals/static-comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e50db20132fdfd6a052b7763b10f47d705fe748",
+      "size": 6198,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/7e50db20132fdfd6a052b7763b10f47d705fe748"
+    },
+    {
+      "path": "site/docs/visual-assets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883f2d8d192d37065460cf9f57e17e218633b0cd",
+      "size": 2368,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/883f2d8d192d37065460cf9f57e17e218633b0cd"
+    },
+    {
+      "path": "site/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da1a8f229305211de24fa120e9dac6622f28222",
+      "size": 36815,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0da1a8f229305211de24fa120e9dac6622f28222"
+    },
+    {
+      "path": "site/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed019e91ac84fba66e7ed69c4f0623e161b2a302",
+      "size": 561,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ed019e91ac84fba66e7ed69c4f0623e161b2a302"
+    },
+    {
+      "path": "site/scripts/audit-performance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572731545a779d06bbd430376ef7f51840c792d5",
+      "size": 4217,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/572731545a779d06bbd430376ef7f51840c792d5"
+    },
+    {
+      "path": "site/scripts/build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c732fec6185a2f1173a656d32806075860a84f",
+      "size": 3956,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/37c732fec6185a2f1173a656d32806075860a84f"
+    },
+    {
+      "path": "site/scripts/check-browser.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ea5ac83fde18fdc1eaccdaf220bd50becaf329",
+      "size": 10418,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/44ea5ac83fde18fdc1eaccdaf220bd50becaf329"
+    },
+    {
+      "path": "site/scripts/check.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1c60607ab3b4c0a443d4940aedc8d63244c661",
+      "size": 5916,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/db1c60607ab3b4c0a443d4940aedc8d63244c661"
+    },
+    {
+      "path": "site/scripts/critical-css.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c3f1de33d4eae039820e6c51d8de8be6461235",
+      "size": 1278,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/e8c3f1de33d4eae039820e6c51d8de8be6461235"
+    },
+    {
+      "path": "site/scripts/serve.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7da6114fac26b57cf3ccdb31648374a2caf188b",
+      "size": 1492,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/b7da6114fac26b57cf3ccdb31648374a2caf188b"
+    },
+    {
+      "path": "site/src/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebc62cb7a632baff42a3e7b4f3399f7efa0faec2",
+      "size": 6141,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/ebc62cb7a632baff42a3e7b4f3399f7efa0faec2"
+    },
+    {
+      "path": "site/src/content.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be19a99b86e912aa4829a31401324b9a73f04e4",
+      "size": 30289,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/2be19a99b86e912aa4829a31401324b9a73f04e4"
+    },
+    {
+      "path": "site/src/icons.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266ede2d955cd432e09f5c9ee37857882a209b49",
+      "size": 3279,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/266ede2d955cd432e09f5c9ee37857882a209b49"
+    },
+    {
+      "path": "site/src/styles.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b1277da7eb879a62b515a8adeea9322bd348470",
+      "size": 24609,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/0b1277da7eb879a62b515a8adeea9322bd348470"
+    },
+    {
+      "path": "site/src/templates.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2035601b01f8a3194f5bb77633665ab67b02935",
+      "size": 17172,
+      "url": "https://api.github.com/repos/gabrielcano-git/wlnegocioseseguros.com.br/git/blobs/f2035601b01f8a3194f5bb77633665ab67b02935"
+    }
+  ]
+}

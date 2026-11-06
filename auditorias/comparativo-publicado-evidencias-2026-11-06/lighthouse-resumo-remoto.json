@@ -1,0 +1,1718 @@
+{
+  "date": "2026-11-06T19:03:24.274Z",
+  "status": "passed",
+  "target": 100,
+  "scope": "Local lab, all 14 content pages, mobile and desktop; no field INP",
+  "runs": 3,
+  "results": [
+    {
+      "path": "/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 910.43445,
+            "largest-contentful-paint": 1879.8689,
+            "speed-index": 1178.3768620004419,
+            "total-blocking-time": 1,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 3414,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 901.0819,
+            "largest-contentful-paint": 1877.1638000000003,
+            "speed-index": 901.0819,
+            "total-blocking-time": 4,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4112,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 900.9724,
+            "largest-contentful-paint": 1876.9448000000002,
+            "speed-index": 900.9724,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4182,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 245.67605,
+            "largest-contentful-paint": 444.19012499999997,
+            "speed-index": 245.67605,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4129,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 246.9198,
+            "largest-contentful-paint": 442.2995,
+            "speed-index": 246.9198,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4118,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 245.8395,
+            "largest-contentful-paint": 442.09875,
+            "speed-index": 245.8395,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "home-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4144.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-auto/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.9088,
+            "largest-contentful-paint": 1501.8176,
+            "speed-index": 750.9088,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4141.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.512,
+            "largest-contentful-paint": 1501.024,
+            "speed-index": 750.512,
+            "total-blocking-time": 24,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4201.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.47535,
+            "largest-contentful-paint": 1500.9507,
+            "speed-index": 750.47535,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4203,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-auto/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.6258,
+            "largest-contentful-paint": 361.2516,
+            "speed-index": 227.87526833303343,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4235,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.62775,
+            "largest-contentful-paint": 361.2555,
+            "speed-index": 202.62775,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4189.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.6011,
+            "largest-contentful-paint": 361.2022,
+            "speed-index": 202.6011,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-auto-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4231,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-residencial/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.55585,
+            "largest-contentful-paint": 1501.1117,
+            "speed-index": 750.55585,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4224,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.4538,
+            "largest-contentful-paint": 1500.9076,
+            "speed-index": 750.4538,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4237.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.5797,
+            "largest-contentful-paint": 1501.1594,
+            "speed-index": 750.5797,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4228,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-residencial/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.84925,
+            "largest-contentful-paint": 361.6985,
+            "speed-index": 202.84925,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4135,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.90085,
+            "largest-contentful-paint": 361.8017,
+            "speed-index": 203.90085,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4159.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 244.40390000000002,
+            "largest-contentful-paint": 361.4039,
+            "speed-index": 244.40390000000002,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-residencial-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4217.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/rc-profissional/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6967,
+            "largest-contentful-paint": 1501.3934,
+            "speed-index": 750.6967,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4192.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 751.08395,
+            "largest-contentful-paint": 1502.1679,
+            "speed-index": 751.08395,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4168.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6656,
+            "largest-contentful-paint": 1501.3312,
+            "speed-index": 750.6656,
+            "total-blocking-time": 12,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4229.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/rc-profissional/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.1991,
+            "largest-contentful-paint": 362.3982,
+            "speed-index": 203.1991,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4212,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.91055,
+            "largest-contentful-paint": 361.8211,
+            "speed-index": 202.91055,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4060,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.6014,
+            "largest-contentful-paint": 361.2028,
+            "speed-index": 202.6014,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "rc-profissional-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4194,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-de-vida-em-grupo/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6246,
+            "largest-contentful-paint": 1351.2492,
+            "speed-index": 750.6246,
+            "total-blocking-time": 17,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4117.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.9453,
+            "largest-contentful-paint": 1351.8906,
+            "speed-index": 750.9453,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4183,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.8836,
+            "largest-contentful-paint": 1351.7672,
+            "speed-index": 750.8836,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4219,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-de-vida-em-grupo/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.83345,
+            "largest-contentful-paint": 361.6669,
+            "speed-index": 202.83345,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4172,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.6453,
+            "largest-contentful-paint": 361.2906,
+            "speed-index": 202.6453,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4212.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 244.5672,
+            "largest-contentful-paint": 361.5672,
+            "speed-index": 244.5672,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-em-grupo-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4165.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguros-de-pessoas/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.86665,
+            "largest-contentful-paint": 1351.7333,
+            "speed-index": 750.86665,
+            "total-blocking-time": 13,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4186,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6067,
+            "largest-contentful-paint": 1351.2134,
+            "speed-index": 750.6067,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4151.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.58375,
+            "largest-contentful-paint": 1351.1675,
+            "speed-index": 750.58375,
+            "total-blocking-time": 23,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4213.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguros-de-pessoas/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 205.0388,
+            "largest-contentful-paint": 362.0776,
+            "speed-index": 205.0388,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4184.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.0849,
+            "largest-contentful-paint": 362.1698,
+            "speed-index": 203.0849,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4165.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.82135,
+            "largest-contentful-paint": 361.6427,
+            "speed-index": 202.82135,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-pessoas-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4143.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/sobre-nos/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.80215,
+            "largest-contentful-paint": 1351.6043,
+            "speed-index": 750.80215,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4143.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.74505,
+            "largest-contentful-paint": 1351.4901,
+            "speed-index": 750.74505,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4186.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 762.7016,
+            "largest-contentful-paint": 1351.4032,
+            "speed-index": 762.7016,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4031,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/sobre-nos/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.88155,
+            "largest-contentful-paint": 361.7631,
+            "speed-index": 202.88155,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4189.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.9791,
+            "largest-contentful-paint": 361.9582,
+            "speed-index": 202.9791,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4187.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 204.2007,
+            "largest-contentful-paint": 362.4014,
+            "speed-index": 204.2007,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "sobre-nos-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4203,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/assessoria-de-seguros/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.74055,
+            "largest-contentful-paint": 1501.4811,
+            "speed-index": 750.74055,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4204,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.7,
+            "largest-contentful-paint": 1501.4,
+            "speed-index": 750.7,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4190.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.7047,
+            "largest-contentful-paint": 1501.4094,
+            "speed-index": 750.7047,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4151,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/assessoria-de-seguros/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 245.68650000000002,
+            "largest-contentful-paint": 361.6865,
+            "speed-index": 245.68650000000002,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4074,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.59185,
+            "largest-contentful-paint": 361.1837,
+            "speed-index": 203.59185,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4157.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.1076,
+            "largest-contentful-paint": 362.2152,
+            "speed-index": 203.1076,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "assessoria-de-seguros-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4178.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/projeto-condominio-seguro/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.82035,
+            "largest-contentful-paint": 750.82035,
+            "speed-index": 750.82035,
+            "total-blocking-time": 12,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4218,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6787,
+            "largest-contentful-paint": 750.6787,
+            "speed-index": 750.6787,
+            "total-blocking-time": 12.5,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4215.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.8979,
+            "largest-contentful-paint": 750.8979,
+            "speed-index": 750.8979,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4005,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/projeto-condominio-seguro/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 205.564,
+            "largest-contentful-paint": 363.128,
+            "speed-index": 205.564,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4177,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.96755,
+            "largest-contentful-paint": 361.9351,
+            "speed-index": 203.96755,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4150.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 205.16765,
+            "largest-contentful-paint": 362.3353,
+            "speed-index": 205.16765,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "projeto-condominio-seguro-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4148.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/parceiros-wl/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.68245,
+            "largest-contentful-paint": 1651.3649,
+            "speed-index": 750.68245,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4218.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.8038,
+            "largest-contentful-paint": 1651.6076,
+            "speed-index": 750.8038,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4219,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.5797,
+            "largest-contentful-paint": 1651.1594,
+            "speed-index": 750.5797,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4186,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/parceiros-wl/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 204.7157,
+            "largest-contentful-paint": 361.4314,
+            "speed-index": 204.7157,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4184.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.77385,
+            "largest-contentful-paint": 361.5477,
+            "speed-index": 202.77385,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4186,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.21235,
+            "largest-contentful-paint": 362.4247,
+            "speed-index": 203.21235,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "parceiros-wl-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4214,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-de-vida/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.69915,
+            "largest-contentful-paint": 1351.3983,
+            "speed-index": 750.69915,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4195.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.74555,
+            "largest-contentful-paint": 1351.4911,
+            "speed-index": 750.74555,
+            "total-blocking-time": 14,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4208.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6531,
+            "largest-contentful-paint": 1351.3062,
+            "speed-index": 750.6531,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4221,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-de-vida/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.9859,
+            "largest-contentful-paint": 361.9718,
+            "speed-index": 202.9859,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4210,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 204.0867,
+            "largest-contentful-paint": 362.1734,
+            "speed-index": 204.0867,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4189.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.93075,
+            "largest-contentful-paint": 361.8615,
+            "speed-index": 203.93075,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-de-vida-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4188,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-condominial/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.92585,
+            "largest-contentful-paint": 1651.8517,
+            "speed-index": 750.92585,
+            "total-blocking-time": 9,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4150.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 772.8517,
+            "largest-contentful-paint": 1651.7034,
+            "speed-index": 772.8517,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4180.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.96105,
+            "largest-contentful-paint": 1651.9221,
+            "speed-index": 750.96105,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4169,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-condominial/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 205.30955,
+            "largest-contentful-paint": 362.6191,
+            "speed-index": 205.30955,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4218,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 205.2054,
+            "largest-contentful-paint": 362.4108,
+            "speed-index": 205.2054,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4179.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 206.7943,
+            "largest-contentful-paint": 361.5886,
+            "speed-index": 206.7943,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-condominial-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4135,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguros-de-responsabilidade-civil/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 753.5973,
+            "largest-contentful-paint": 1507.1946,
+            "speed-index": 753.5973,
+            "total-blocking-time": 7,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4172,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 751.0877,
+            "largest-contentful-paint": 1502.1754,
+            "speed-index": 751.0877,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4203,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.72385,
+            "largest-contentful-paint": 1501.4477,
+            "speed-index": 750.72385,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4182,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguros-de-responsabilidade-civil/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 204.671,
+            "largest-contentful-paint": 361.342,
+            "speed-index": 204.671,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4145,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 204.1682,
+            "largest-contentful-paint": 362.3364,
+            "speed-index": 204.1682,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4204.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.737,
+            "largest-contentful-paint": 361.474,
+            "speed-index": 202.737,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguros-de-responsabilidade-civil-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4218.5,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-diaria-de-incapacidade-temporaria-dit/",
+      "device": "mobile",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.6234,
+            "largest-contentful-paint": 1501.2468,
+            "speed-index": 750.6234,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-mobile-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4189,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 750.7492,
+            "largest-contentful-paint": 1501.4984,
+            "speed-index": 750.7492,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-mobile-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4184.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 751.06,
+            "largest-contentful-paint": 1502.12,
+            "speed-index": 751.06,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-mobile-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4128,
+            "credits": {}
+          }
+        }
+      ]
+    },
+    {
+      "path": "/seguro-diaria-de-incapacidade-temporaria-dit/",
+      "device": "desktop",
+      "median": 100,
+      "samples": [
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.74375,
+            "largest-contentful-paint": 361.4875,
+            "speed-index": 202.74375,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-desktop-1.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4209.5,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 203.67255,
+            "largest-contentful-paint": 361.3451,
+            "speed-index": 203.67255,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-desktop-2.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4208,
+            "credits": {}
+          }
+        },
+        {
+          "score": 100,
+          "metrics": {
+            "first-contentful-paint": 202.7204,
+            "largest-contentful-paint": 361.4408,
+            "speed-index": 202.7204,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0
+          },
+          "file": "seguro-diaria-de-incapacidade-temporaria-dit-desktop-3.report.html",
+          "lighthouseVersion": "13.6.0",
+          "environment": {
+            "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+            "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+            "benchmarkIndex": 4203.5,
+            "credits": {}
+          }
+        }
+      ]
+    }
+  ],
+  "error": null
+}

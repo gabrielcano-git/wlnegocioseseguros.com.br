@@ -1,0 +1,30 @@
+[
+  {
+    "path": "site/src/templates.mjs",
+    "sha": "ed89f026115bf5acef74429d82cb8d64ab102ca9",
+    "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/blob/main/site/src/templates.mjs",
+    "error": false
+  },
+  {
+    "path": "site/src/content.mjs",
+    "sha": "2be19a99b86e912aa4829a31401324b9a73f04e4",
+    "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/blob/main/site/src/content.mjs",
+    "error": false
+  },
+  {
+    "path": "site/src/styles.scss",
+    "sha": "871ef2477e27db6f2904cd36b759c05c0751ad23",
+    "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/blob/main/site/src/styles.scss",
+    "error": false
+  },
+  {
+    "path": "site/src/app.js",
+    "sha": "63ad7a63add03baaa85c22ed592d03b8f719ad2f",
+    "url": "https://github.com/gabrielcano-git/wlnegocioseseguros.com.br/blob/main/site/src/app.js",
+    "error": false
+  },
+  {
+    "path": ".github/workflows/deploy.yml",
+    "error": true
+  }
+]
