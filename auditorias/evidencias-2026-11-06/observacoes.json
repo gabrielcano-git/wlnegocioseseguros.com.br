@@ -1,0 +1,39 @@
+{
+  "site": "https://wlnegocioseseguros.com.br/",
+  "collected_on": "2026-11-06",
+  "timezone": "America/Sao_Paulo",
+  "method": "Leitura pública por ferramenta web; extrações indexadas, sem DOM vivo nem inspeção visual",
+  "status": "partial_provisional",
+  "pages": [
+    {"url":"https://wlnegocioseseguros.com.br/","source_freshness":"last week","title_returned":"Home -","observations":["H1 extraído: Nossos Pilares; destaques de produtos e CTA para WhatsApp","Hierarquia extraída contém H1 seguido de H3 e H2 seguido de H4","Telefone, endereço, email e CNPJ no rodapé","Texto de Agilidade contém ofecerer","Embed de RC Profissional e anúncio de frequência semanal; frequência não verificada"]},
+    {"url":"https://wlnegocioseseguros.com.br/seguro-auto/","source_freshness":"last year","title_returned":"Seguro Auto -","observations":["H1 extraído identifica produto; títulos seguintes H3","Coberturas explicadas e CTAs de cotação","Link Skip to content presente na extração; funcionamento não testado"]},
+    {"url":"https://wlnegocioseseguros.com.br/seguro-residencial/","source_freshness":"8 months ago","title_returned":"Seguro Residencial -","observations":["Token $9 ocorre três vezes entre blocos de coberturas, linhas 72, 78 e 83 da extração","Trecho de causas naturais contém furacãotornado, linha 70","Título de página aparece como texto sem marcador H1 na extração; DOM não confirmado","CTAs de WhatsApp presentes"]},
+    {"url":"https://wlnegocioseseguros.com.br/sobre-nos/","source_freshness":"3 months ago","title_returned":"Sobre Nós -","observations":["História de fundação, missão, visão e valores","Fundadores são mencionados sem identificação nominal na extração","Título de página aparece como texto sem marcador H1 na extração; DOM não confirmado"]},
+    {"url":"https://wlnegocioseseguros.com.br/assessoria-de-seguros/","source_freshness":"6 months ago","title_returned":"Assessoria de Seguros -","observations":["Explica acompanhamento de contratação, suporte e renovação","Texto promete contato 10 dias antes do vencimento; execução operacional não verificada","Convite a enviar apólices por WhatsApp","Instrução baseada em seta; componente e alternativa por teclado não testados"]},
+    {"url":"https://wlnegocioseseguros.com.br/projeto-condominio-seguro/","source_freshness":"last year","title_returned":"Projeto Condomínio Seguro -","observations":["Etapas de diagnóstico e personalização descritas","CTA solicita apólice por WhatsApp","Afirmações jurídicas presentes sem referência próxima na extração; correção jurídica não avaliada"]},
+    {"url":"https://wlnegocioseseguros.com.br/parceiros-wl/","source_freshness":"10 months ago","title_returned":"Parceiros WL -","observations":["Convite para clicar em imagens; nomes representados como LOGO, padrao1-branco e imagem logo","Nomes e destinos reais dos parceiros não confirmados; imagem clicada pela ferramenta resolveu para arquivo de imagem, sem provar comportamento no navegador"]},
+    {"url":"https://wlnegocioseseguros.com.br/rc-profissional/","source_freshness":"4 months ago","title_returned":"RC Profissional -","observations":["Apresenta exemplos e seção sobre riscos excluídos","Caso de Otávio começa como engenheiro e muda para arquiteto, linhas 72 a 74","Um valor monetário aparece com separadores no padrão americano em meio a valores no padrão brasileiro","Natureza real, anonimizada ou fictícia dos exemplos não esclarecida na extração"]}
+  ],
+  "links": {
+    "whatsapp_home": "https://wa.me/5511932039326?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+seguros.",
+    "whatsapp_test": "Destino extraído; abertura de conversa, atendimento e envio não testados",
+    "cms_asset_signals": [
+      "https://wlnegocioseseguros.com.br/wp-content/uploads/2025/01/base-home.png",
+      "https://wlnegocioseseguros.com.br/wp-content/uploads/2025/02/seguro-carro.jpg",
+      "https://wlnegocioseseguros.com.br/wp-content/uploads/2025/04/LOGO-2-1024x1024.jpg"
+    ],
+    "cms_confidence": "WordPress provável; sinais pertencem à mesma família de caminhos de mídia; sem confirmação independente por HTML bruto ou cabeçalhos"
+  },
+  "measurement_status": {
+    "desktop_planned": {"width":1440,"height":900,"captured":false},
+    "mobile_planned": {"width":390,"height":844,"captured":false},
+    "screenshots":[],
+    "performance_mobile":null,
+    "performance_desktop":null,
+    "crux":"unknown",
+    "contrast_pairs":[],
+    "keyboard":"not_tested",
+    "mobile_menu":"not_tested",
+    "console_network":"not_observed"
+  }
+}
