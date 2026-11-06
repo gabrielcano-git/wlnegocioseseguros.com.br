@@ -1,0 +1,13 @@
+{
+  "source": "auditorias/comparativo-publicado-wl-2026-11-06.md",
+  "pdf": "output/pdf/comparativo-publicado-wl-2026-11-06.pdf",
+  "pages": 10,
+  "sourceSegmentsPreserved": 247,
+  "missingSegments": [],
+  "outOfBounds": [],
+  "boundsCheckedWithPdfplumber": true,
+  "visualReview": "All 10 final pages rendered with Poppler and visually inspected; performance page also inspected at full preview resolution",
+  "screenshots": "Two original thumbnails embedded, aspect ratios preserved",
+  "links": 31,
+  "note": "Screenshot-table labels rearranged into desktop/mobile columns; report content preserved"
+}
