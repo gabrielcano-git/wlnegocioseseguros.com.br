@@ -1,6 +1,7 @@
 import { readFile, readdir, stat, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { reports } from '../src/reports.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const dist=resolve(root,'dist');
 const failures=[];const htmls=[];const performancePages=[];
@@ -60,7 +61,16 @@ const assetEntries=await readdir(resolve(dist,'assets'));let bytes=0;for(const f
 const jsBytes=(await stat(resolve(dist,'assets/app.js'))).size;
 if(jsBytes>10*1024)failures.push('JavaScript budget (10 KiB)');
 for(const file of assetEntries.filter(file=>/-640\.avif$/.test(file)))if((await stat(resolve(dist,'assets',file))).size>50*1024)failures.push(`Image budget (50 KiB): ${file}`);
-const report={date:new Date().toISOString(),method:'Static build checks; no browser runtime',pages:htmls.length,failures,contrast:pairs,assets:{count:assetEntries.length,bytes},performance:{method:'File sizes and resource markup only; not measured Core Web Vitals or Lighthouse',javascriptBytes:jsBytes,pages:performancePages},browser:'not evaluated by static checks; see docs/desktop-review/playwright.json',pagespeed:'not measured'};
+const documents=[];
+for(const {file} of reports){
+ try{
+  const source=await readFile(resolve(root,'../output/pdf',file));
+  const built=await readFile(resolve(dist,'output/pdf',file));
+  if(!source.equals(built)||built.subarray(0,5).toString()!=='%PDF-')failures.push(`PDF missing, invalid or outdated: ${file}`);
+  documents.push({file:`output/pdf/${file}`,bytes:built.length});
+ }catch{failures.push(`PDF not included in build: ${file}`);}
+}
+const report={date:new Date().toISOString(),method:'Static build checks; no browser runtime',pages:htmls.length,failures,contrast:pairs,assets:{count:assetEntries.length,bytes},documents,performance:{method:'File sizes and resource markup only; not measured Core Web Vitals or Lighthouse',javascriptBytes:jsBytes,pages:performancePages},browser:'not evaluated by static checks; see docs/desktop-review/playwright.json',pagespeed:'not measured'};
 await mkdir(resolve(root,'docs'),{recursive:true});
 await writeFile(resolve(root,'docs/validacao-estatica.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));

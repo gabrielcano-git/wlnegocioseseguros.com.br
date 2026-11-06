@@ -33,6 +33,8 @@ jobs:
         run: npm ci --prefix site
       - name: Build static site
         run: npm --prefix site run build
+      - name: Check static pages and PDF reports
+        run: npm --prefix site run check
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact

@@ -69,6 +69,28 @@ combinação. A meta ainda não foi medida neste ambiente.
 
 ## Publicação
 
+### Relatórios em PDF
+
+O build inclui os três relatórios de `output/pdf/` em `site/dist/output/pdf/`
+e gera um índice em `site/dist/relatorios/index.html`. O workflow do GitHub
+Pages publica esses arquivos junto com o site e verifica sua presença e
+integridade antes do deploy. Os links são relativos e funcionam no
+subdiretório do projeto.
+
+Após publicar uma build com este ajuste, os endereços serão:
+
+- [Índice de relatórios](https://gabrielcano-git.github.io/wlnegocioseseguros.com.br/relatorios/).
+- [Comparativo atualizado](https://gabrielcano-git.github.io/wlnegocioseseguros.com.br/output/pdf/comparativo-publicado-wl-2026-11-06.pdf).
+- [Comparativo inicial](https://gabrielcano-git.github.io/wlnegocioseseguros.com.br/output/pdf/comparativo-site-antigo-novo-wl-2026-11-06.pdf).
+- [Auditoria do site antigo](https://gabrielcano-git.github.io/wlnegocioseseguros.com.br/output/pdf/relatorio-site-atual-wl-2026-11-06.pdf).
+
+Para disponibilizar outro relatório, salve o PDF em `output/pdf/` e cadastre
+seu arquivo, título e descrição em `site/src/reports.mjs`. Os PDFs originais
+não são modificados pelo build. Referências internas dos documentos a
+evidências locais continuam dependendo dos arquivos do repositório.
+
+### Configuração da origem
+
 Nenhuma publicação, push ou alteração no WordPress de produção foi feita. O workflow existente do GitHub Pages agora usa `site/dist` como artefato de build.
 
 Sem `SITE_URL`, o build gera `robots.txt` que bloqueia rastreamento da prévia. Ao preparar uma publicação definitiva, configure a origem completa com HTTPS para gerar canonical, sitemap e robots de produção:

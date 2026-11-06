@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-06T18:56:18.375Z",
+  "date": "2026-11-06T19:53:22.482Z",
   "method": "Static build checks; no browser runtime",
-  "pages": 15,
+  "pages": 16,
   "failures": [],
   "contrast": [
     {
@@ -45,6 +45,20 @@
     "count": 35,
     "bytes": 1388462
   },
+  "documents": [
+    {
+      "file": "output/pdf/comparativo-publicado-wl-2026-11-06.pdf",
+      "bytes": 157519
+    },
+    {
+      "file": "output/pdf/comparativo-site-antigo-novo-wl-2026-11-06.pdf",
+      "bytes": 120050
+    },
+    {
+      "file": "output/pdf/relatorio-site-atual-wl-2026-11-06.pdf",
+      "bytes": 116760
+    }
+  ],
   "performance": {
     "method": "File sizes and resource markup only; not measured Core Web Vitals or Lighthouse",
     "javascriptBytes": 6141,
@@ -77,6 +91,11 @@
       {
         "path": "rc-profissional/index.html",
         "htmlBytes": 30761,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "relatorios/index.html",
+        "htmlBytes": 25516,
         "criticalCssBytes": 10986
       },
       {
