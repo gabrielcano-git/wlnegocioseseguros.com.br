@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06T17:14:01.098Z",
+  "method": "Static build checks; no browser runtime",
+  "pages": 15,
+  "failures": [],
+  "contrast": [
+    {
+      "use": "Texto marrom / branco",
+      "foreground": "#6b4a30",
+      "background": "#ffffff",
+      "ratio": 7.93
+    },
+    {
+      "use": "Texto marrom / verde claro",
+      "foreground": "#6b4a30",
+      "background": "#c8dfbe",
+      "ratio": 5.57
+    },
+    {
+      "use": "Botão branco / verde escuro",
+      "foreground": "#ffffff",
+      "background": "#435b3e",
+      "ratio": 7.49
+    },
+    {
+      "use": "Texto secundário / branco",
+      "foreground": "#71675d",
+      "background": "#ffffff",
+      "ratio": 5.53
+    },
+    {
+      "use": "Texto secundário / fundo claro",
+      "foreground": "#71675d",
+      "background": "#f8f7f3",
+      "ratio": 5.15
+    },
+    {
+      "use": "Verde escuro / verde claro",
+      "foreground": "#435b3e",
+      "background": "#c8dfbe",
+      "ratio": 5.26
+    }
+  ],
+  "assets": {
+    "count": 15,
+    "bytes": 984395
+  },
+  "browser": "blocked: Chromium MachPortRendezvousServer permission denied",
+  "pagespeed": "not measured"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "wl-negocios-seguros",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "check:browser": "node scripts/check-browser.mjs"
+  },
+  "devDependencies": {
+    "sass": "1.101.0",
+    "tailwindcss": "3.4.19",
+    "playwright": "1.62.1"
+  }
+}
