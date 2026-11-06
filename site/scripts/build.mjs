@@ -5,6 +5,7 @@ import { execFileSync } from 'node:child_process';
 import * as sass from 'sass';
 import { home, detail, shell } from '../src/templates.mjs';
 import { pages } from '../src/content.mjs';
+import { criticalCSS } from './critical-css.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const out=resolve(root,'dist');
 await rm(out,{recursive:true,force:true});
@@ -21,6 +22,18 @@ await writeFile(resolve(root,'.cache/styles.css'),css);
 execFileSync(process.execPath,[resolve(root,'node_modules/tailwindcss/lib/cli.js'),'-c',resolve(root,'tailwind.config.cjs'),'-i',resolve(root,'.cache/styles.css'),'-o',resolve(out,'assets/styles.css'),'--minify'],{cwd:root,stdio:'inherit'});
 await cp(resolve(root,'src/app.js'),resolve(out,'assets/app.js'));
 await writeFile(resolve(out,'404.html'),shell({title:'Página não encontrada',description:'Encontre os seguros e serviços da WL.',base:'/',body:'<section class="section"><div class="container"><p class="eyebrow">PÁGINA NÃO ENCONTRADA</p><h1>Vamos encontrar<br>o seu caminho.</h1><p style="margin-block:2rem">Conheça as opções de seguros ou converse com nossa equipe.</p><a class="button button--primary" href="/">Ir para o início</a></div></section>'}));
+const styles = await readFile(resolve(out,'assets/styles.css'),'utf8');
+for (const file of ['index.html', ...Object.keys(pages).map(slug => `${slug}/index.html`), '404.html']) {
+ const path = resolve(out, file);
+ let html = await readFile(path, 'utf8');
+ const critical = criticalCSS(styles, file === 'index.html' ? 'home' : 'detail');
+ html = html.replace(/<link rel="stylesheet" href="([^"]+)">/, (_, href) =>
+  `<script>document.documentElement.classList.add('js')</script><style data-critical>${critical}</style><link rel="stylesheet" href="${href}" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="${href}"></noscript>`);
+ // Use exactly the same candidates/sizes as <picture> to avoid double downloads.
+ const hero = html.match(/<picture class="(?:hero__photo|detail-hero__photo)"><source type="image\/avif" srcset="([^"]+)" sizes="([^"]+)"/);
+ if (hero) html = html.replace('</head>', `<link rel="preload" as="image" type="image/avif" imagesrcset="${hero[1]}" imagesizes="${hero[2]}" fetchpriority="high"></head>`);
+ await writeFile(path, html);
+}
 // Keep the preview out of search engines until a real production origin is configured.
 const origin=process.env.SITE_URL?.replace(/\/$/,'');
 const slugs=['',...Object.keys(pages)];

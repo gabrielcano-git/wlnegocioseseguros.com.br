@@ -3,7 +3,7 @@ import { dirname, resolve, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const dist=resolve(root,'dist');
-const failures=[];const htmls=[];
+const failures=[];const htmls=[];const performancePages=[];
 async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,entry.name);if(entry.isDirectory())await walk(p);else if(extname(p)==='.html')htmls.push(p);}}
 await walk(dist);
 for(const file of htmls){
@@ -26,6 +26,27 @@ for(const file of htmls){
   const u=new URL(m[1].replaceAll('&amp;','&'));if(u.pathname!=='/5511932039326'||!u.searchParams.get('text'))failures.push(`${name}: WhatsApp context`);
  }
  if(/↗|→|➜|➡/.test(html))failures.push(`${name}: decorative arrow`);
+ const critical=html.match(/<style data-critical>([\s\S]*?)<\/style>/)?.[1];
+ const criticalBytes=Buffer.byteLength(critical||'');
+ const htmlBytes=Buffer.byteLength(html);
+ if(!critical||criticalBytes>14*1024)failures.push(`${name}: critical CSS budget (14 KiB)`);
+ if(htmlBytes>80*1024)failures.push(`${name}: HTML budget (80 KiB)`);
+ const enabledHtml=html.replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
+ for(const [tag] of enabledHtml.matchAll(/<link rel="stylesheet"[^>]*>/g))if(!tag.includes('media="print"'))failures.push(`${name}: render-blocking stylesheet`);
+ const classScript="<script>document.documentElement.classList.add('js')</script>";
+ if(html.indexOf(classScript)<0||html.indexOf(classScript)>html.indexOf('<style data-critical>'))failures.push(`${name}: mobile menu initialized after first paint`);
+ for(const match of html.matchAll(/\b(?:imagesrcset|srcset)="([^"]+)"/g)){
+  for(const candidate of match[1].split(',')){
+   const path=candidate.trim().split(/\s+/)[0];
+   try{await stat(resolve(dirname(file),path));}catch{failures.push(`${name}: missing image candidate ${path}`);}
+  }
+ }
+ const hero=html.match(/<picture class="(?:hero__photo|detail-hero__photo)"><source[^>]+srcset="([^"]+)" sizes="([^"]+)"/);
+ if(hero){
+  if(!html.includes(`imagesrcset="${hero[1]}" imagesizes="${hero[2]}"`))failures.push(`${name}: preload and hero candidates differ`);
+  if((html.match(/<img[^>]+fetchpriority="high"/g)||[]).length!==1)failures.push(`${name}: hero priority`);
+ }
+ performancePages.push({path:name,htmlBytes,criticalCssBytes:criticalBytes});
 }
 const rgb=hex=>hex.match(/[\da-f]{2}/gi).map(n=>parseInt(n,16)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4);
 const lum=hex=>{const [r,g,b]=rgb(hex);return .2126*r+.7152*g+.0722*b;};
@@ -36,7 +57,10 @@ const css=await readFile(resolve(dist,'assets/styles.css'),'utf8');
 if(!css.includes('.grid{display:grid}')||!css.includes('md\\:grid-cols-3'))failures.push('Tailwind grid utilities not generated');
 if(!css.includes('prefers-reduced-motion'))failures.push('Reduced motion stylesheet missing');
 const assetEntries=await readdir(resolve(dist,'assets'));let bytes=0;for(const f of assetEntries)bytes+=(await stat(resolve(dist,'assets',f))).size;
-const report={date:new Date().toISOString(),method:'Static build checks; no browser runtime',pages:htmls.length,failures,contrast:pairs,assets:{count:assetEntries.length,bytes},browser:'blocked: Chromium MachPortRendezvousServer permission denied',pagespeed:'not measured'};
+const jsBytes=(await stat(resolve(dist,'assets/app.js'))).size;
+if(jsBytes>10*1024)failures.push('JavaScript budget (10 KiB)');
+for(const file of assetEntries.filter(file=>/-640\.avif$/.test(file)))if((await stat(resolve(dist,'assets',file))).size>50*1024)failures.push(`Image budget (50 KiB): ${file}`);
+const report={date:new Date().toISOString(),method:'Static build checks; no browser runtime',pages:htmls.length,failures,contrast:pairs,assets:{count:assetEntries.length,bytes},performance:{method:'File sizes and resource markup only; not measured Core Web Vitals or Lighthouse',javascriptBytes:jsBytes,pages:performancePages},browser:'not evaluated by static checks; see docs/desktop-review/playwright.json',pagespeed:'not measured'};
 await mkdir(resolve(root,'docs'),{recursive:true});
 await writeFile(resolve(root,'docs/validacao-estatica.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));

@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-06T18:56:46.260Z",
+  "method": "File sizes, generated HTML and image decoding only; no runtime timing",
+  "lighthouseScore": null,
+  "coreWebVitals": {
+    "LCP": null,
+    "INP": null,
+    "CLS": null
+  },
+  "images": [
+    {
+      "path": "site/assets/auto-320.avif",
+      "before": null,
+      "after": 9640,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/auto-320.webp",
+      "before": null,
+      "after": 20212,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/auto-480.avif",
+      "before": null,
+      "after": 17594,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/auto-480.webp",
+      "before": null,
+      "after": 35750,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/auto-640.avif",
+      "before": 36166,
+      "after": 24817,
+      "savingPercent": 31.4
+    },
+    {
+      "path": "site/assets/auto-640.webp",
+      "before": null,
+      "after": 49600,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/auto-1024.avif",
+      "before": 63346,
+      "after": 44685,
+      "savingPercent": 29.5
+    },
+    {
+      "path": "site/assets/auto-1024.webp",
+      "before": 100442,
+      "after": 83734,
+      "savingPercent": 16.6
+    },
+    {
+      "path": "site/assets/casa-320.avif",
+      "before": null,
+      "after": 9063,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/casa-320.webp",
+      "before": null,
+      "after": 19018,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/casa-480.avif",
+      "before": null,
+      "after": 18471,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/casa-480.webp",
+      "before": null,
+      "after": 39230,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/casa-640.avif",
+      "before": 39331,
+      "after": 27455,
+      "savingPercent": 30.2
+    },
+    {
+      "path": "site/assets/casa-640.webp",
+      "before": null,
+      "after": 56560,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/casa-1024.avif",
+      "before": 67461,
+      "after": 47800,
+      "savingPercent": 29.1
+    },
+    {
+      "path": "site/assets/casa-1024.webp",
+      "before": 119922,
+      "after": 98040,
+      "savingPercent": 18.2
+    },
+    {
+      "path": "site/assets/vida-320.avif",
+      "before": null,
+      "after": 7467,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/vida-320.webp",
+      "before": null,
+      "after": 13812,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/vida-480.avif",
+      "before": null,
+      "after": 13771,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/vida-480.webp",
+      "before": null,
+      "after": 24616,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/vida-640.avif",
+      "before": 29475,
+      "after": 20228,
+      "savingPercent": 31.4
+    },
+    {
+      "path": "site/assets/vida-640.webp",
+      "before": null,
+      "after": 34320,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/vida-1024.avif",
+      "before": 52341,
+      "after": 36249,
+      "savingPercent": 30.7
+    },
+    {
+      "path": "site/assets/vida-1024.webp",
+      "before": 72354,
+      "after": 59816,
+      "savingPercent": 17.3
+    },
+    {
+      "path": "site/assets/condominio-320.avif",
+      "before": null,
+      "after": 15239,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/condominio-320.webp",
+      "before": null,
+      "after": 32500,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/condominio-480.avif",
+      "before": null,
+      "after": 32871,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/condominio-480.webp",
+      "before": null,
+      "after": 68034,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/condominio-640.avif",
+      "before": 63644,
+      "after": 46771,
+      "savingPercent": 26.5
+    },
+    {
+      "path": "site/assets/condominio-640.webp",
+      "before": null,
+      "after": 101016,
+      "savingPercent": null
+    },
+    {
+      "path": "site/assets/condominio-1024.avif",
+      "before": 106669,
+      "after": 78077,
+      "savingPercent": 26.8
+    },
+    {
+      "path": "site/assets/condominio-1024.webp",
+      "before": 207312,
+      "after": 172046,
+      "savingPercent": 17
+    }
+  ],
+  "sizes": {
+    "index.html": {
+      "before": {
+        "bytes": 30577,
+        "gzip": 6802,
+        "brotli": 5800
+      },
+      "after": {
+        "bytes": 47119,
+        "gzip": 10360,
+        "brotli": 8893
+      }
+    },
+    "assets/styles.css": {
+      "before": {
+        "bytes": 23550,
+        "gzip": 5272,
+        "brotli": 4574
+      },
+      "after": {
+        "bytes": 23574,
+        "gzip": 5284,
+        "brotli": 4585
+      }
+    },
+    "assets/app.js": {
+      "before": {
+        "bytes": 6189,
+        "gzip": 2143,
+        "brotli": 1785
+      },
+      "after": {
+        "bytes": 6141,
+        "gzip": 2128,
+        "brotli": 1760
+      }
+    },
+    "assets/auto-640.avif": {
+      "before": {
+        "bytes": 36166,
+        "gzip": 36159,
+        "brotli": 36170
+      },
+      "after": {
+        "bytes": 24817,
+        "gzip": 24815,
+        "brotli": 24758
+      }
+    },
+    "assets/auto-1024.avif": {
+      "before": {
+        "bytes": 63346,
+        "gzip": 63346,
+        "brotli": 63350
+      },
+      "after": {
+        "bytes": 44685,
+        "gzip": 44685,
+        "brotli": 44689
+      }
+    },
+    "assets/condominio-640.avif": {
+      "before": {
+        "bytes": 63644,
+        "gzip": 63644,
+        "brotli": 63648
+      },
+      "after": {
+        "bytes": 46771,
+        "gzip": 46769,
+        "brotli": 46775
+      }
+    }
+  },
+  "criticalCssBytes": {
+    "home": 12788,
+    "detail": 10986
+  },
+  "validation": {
+    "build": "passed",
+    "static": "passed",
+    "imageVariantsDecoded": 32,
+    "browser": "blocked; see ../desktop-review/playwright.json",
+    "lighthouse": "blocked; see lighthouse/summary.json",
+    "nativeVisualReview": "not available: browser access host unavailable and Computer Use not approved for Chrome"
+  }
+}

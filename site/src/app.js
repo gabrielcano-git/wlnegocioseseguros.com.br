@@ -1,5 +1,4 @@
 (() => {
-  document.documentElement.classList.add('js');
   const toggle = document.querySelector('.header__toggle');
   const nav = document.querySelector('.nav');
   const closeMenu = () => {

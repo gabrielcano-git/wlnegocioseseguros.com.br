@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06T17:14:01.098Z",
+  "date": "2026-11-06T18:56:18.375Z",
   "method": "Static build checks; no browser runtime",
   "pages": 15,
   "failures": [],
@@ -42,9 +42,90 @@
     }
   ],
   "assets": {
-    "count": 15,
-    "bytes": 984395
+    "count": 35,
+    "bytes": 1388462
   },
-  "browser": "blocked: Chromium MachPortRendezvousServer permission denied",
+  "performance": {
+    "method": "File sizes and resource markup only; not measured Core Web Vitals or Lighthouse",
+    "javascriptBytes": 6141,
+    "pages": [
+      {
+        "path": "404.html",
+        "htmlBytes": 24365,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "assessoria-de-seguros/index.html",
+        "htmlBytes": 29275,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "index.html",
+        "htmlBytes": 47119,
+        "criticalCssBytes": 12788
+      },
+      {
+        "path": "parceiros-wl/index.html",
+        "htmlBytes": 28276,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "projeto-condominio-seguro/index.html",
+        "htmlBytes": 29991,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "rc-profissional/index.html",
+        "htmlBytes": 30761,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-auto/index.html",
+        "htmlBytes": 29608,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-condominial/index.html",
+        "htmlBytes": 30051,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-de-vida/index.html",
+        "htmlBytes": 31386,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-de-vida-em-grupo/index.html",
+        "htmlBytes": 29640,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-diaria-de-incapacidade-temporaria-dit/index.html",
+        "htmlBytes": 29404,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguro-residencial/index.html",
+        "htmlBytes": 30883,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguros-de-pessoas/index.html",
+        "htmlBytes": 28979,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "seguros-de-responsabilidade-civil/index.html",
+        "htmlBytes": 30704,
+        "criticalCssBytes": 10986
+      },
+      {
+        "path": "sobre-nos/index.html",
+        "htmlBytes": 28581,
+        "criticalCssBytes": 10986
+      }
+    ]
+  },
+  "browser": "not evaluated by static checks; see docs/desktop-review/playwright.json",
   "pagespeed": "not measured"
 }

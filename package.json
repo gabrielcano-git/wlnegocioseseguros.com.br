@@ -5,6 +5,7 @@
     "dev": "npm --prefix site run dev",
     "build": "npm --prefix site run build",
     "check": "npm --prefix site run check",
-    "check:browser": "npm --prefix site run check:browser"
+    "check:browser": "npm --prefix site run check:browser",
+    "audit:performance": "npm --prefix site run audit:performance"
   }
 }

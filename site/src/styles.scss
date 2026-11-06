@@ -10,7 +10,7 @@ $muted: #71675d;
 $line: #e6e6de;
 :root { --color-leaf: #{$leaf}; --color-sage: #{$sage}; --color-ink: #{$ink}; --color-clay: #{$clay}; --color-action: #{$deep}; --radius: 1rem; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
+html { scroll-behavior: smooth; scroll-padding-top: 7rem; scrollbar-gutter: stable; }
 body { margin: 0; background: $paper; color: $ink; font-family: 'Arial', 'Helvetica Neue', sans-serif; font-size: 1rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
 button, input, select { font: inherit; }
 button, a, summary { -webkit-tap-highlight-color: transparent; }

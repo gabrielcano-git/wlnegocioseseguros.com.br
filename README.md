@@ -51,6 +51,22 @@ O build e as verificações estáticas passaram. A execução de Chromium/Playwr
 
 Conteúdo da origem foi recuperado por extrações indexadas de datas diferentes; não foi possível capturar o DOM atual. Depoimentos em imagem e o diretório completo de parceiros continuam acessíveis por links ao site original. As imagens novas são ilustrativas e geradas por IA, não fotografias de clientes ou da equipe. Veja [mapeamento e pendências](site/docs/mapeamento.md) e [origem das imagens](site/docs/visual-assets.md).
 
+## Desempenho e Core Web Vitals
+
+O build incorpora os estilos da primeira tela e preload responsivo da
+imagem principal. As fotos têm candidatos AVIF/WebP de 320 a 1024 px.
+Veja [as mudanças, os tamanhos antes/depois e os limites da validação](site/docs/core-web-vitals/README.md).
+
+Para medir a meta de 100 em um ambiente com Chrome, rede e porta local disponíveis:
+
+```sh
+npm run build
+npm run audit:performance
+```
+
+A auditoria testa as 14 páginas em mobile e desktop, com três execuções por
+combinação. A meta ainda não foi medida neste ambiente.
+
 ## Publicação
 
 Nenhuma publicação, push ou alteração no WordPress de produção foi feita. O workflow existente do GitHub Pages agora usa `site/dist` como artefato de build.
